@@ -45,11 +45,5 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>when the app is using location service while in the background</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>when the app is using location service while in the background</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>when the app is using location service while in the background</string>
 </dict>
 </plist>
