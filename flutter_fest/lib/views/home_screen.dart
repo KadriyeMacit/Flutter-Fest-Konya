@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ar/app_colors.dart';
-import 'package:flutter_ar/model/shop_card_model.dart';
-import 'package:flutter_ar/model/ar_objects.dart';
-import 'package:flutter_ar/views/ar_objects_screen.dart';
+import 'package:flutter_fest/app_colors.dart';
+import 'package:flutter_fest/model/ar_objects.dart';
+import 'package:flutter_fest/model/shop_card_model.dart';
+import 'package:flutter_fest/views/ar_objects_screen.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -13,11 +13,11 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<ShopCardModel> mycard = [
-    ShopCardModel(Icons.shopping_bag, 'Ayakkabı', false, ARObjects.shoe, false),
-    ShopCardModel(Icons.apartment, 'Koltuk', false, ARObjects.chair, false),
-    ShopCardModel(Icons.home, 'Tavuk', false, ARObjects.chicken, true),
-    ShopCardModel(Icons.grade, 'Figür', false, ARObjects.figure, false),
-    ShopCardModel(Icons.animation, 'Tilki', false, ARObjects.fox, false),
+    ShopCardModel(Icons.shopping_bag, 'Shoe', false, ARObjects.shoe, false),
+    ShopCardModel(Icons.apartment, 'Chair', false, ARObjects.chair, false),
+    ShopCardModel(Icons.home, 'Chicken', false, ARObjects.chicken, true),
+    ShopCardModel(Icons.grade, 'Figure', false, ARObjects.figure, false),
+    ShopCardModel(Icons.animation, 'Fox', false, ARObjects.fox, false),
   ];
 
   @override
@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
-              'Alışveriş yapalım!',
+              "Let's shopping!",
               style: TextStyle(fontSize: 24, color: AppColors.black54),
             ),
           ),

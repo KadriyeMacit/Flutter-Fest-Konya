@@ -6,7 +6,7 @@ import 'package:ar_flutter_plugin/managers/ar_object_manager.dart';
 import 'package:ar_flutter_plugin/managers/ar_session_manager.dart';
 import 'package:ar_flutter_plugin/models/ar_node.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ar/app_colors.dart';
+import 'package:flutter_fest/app_colors.dart';
 import 'package:vector_math/vector_math_64.dart';
 
 class ARObjectsScreen extends StatefulWidget {
